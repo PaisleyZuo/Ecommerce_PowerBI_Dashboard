@@ -1,60 +1,57 @@
 
-# 📊 E-Commerce Data Power BI Dashboard
+# E-Commerce Data Power BI Dashboard
 
-## 🧾 Project Description 项目描述
+## Project Description
 
 This project is a **Power BI dashboard** based on the [Kaggle E-Commerce Dataset](https://www.kaggle.com/) aimed at uncovering key insights regarding sales, profitability, product performance, and customer segmentation.
 
-该项目基于 Kaggle 上的 **电商数据集**，使用 Power BI 构建交互式仪表板，帮助分析销售情况、盈利能力、产品表现和客户分布等关键指标。
-
 ---
 
-## 🎯 Data Story Objectives 数据故事目标
+## Data Story Objectives
 
-### 🔹 Objective 目标
+### Objective
 
 - Review current product lines and identify areas for improvement  
-- 审视现有产品线，识别可改进的地方
 
-### 🔹 Users 用户角色
+### Users
 
-- **Head of Finance / 财务负责人**
+- Head of Finance
 
-### 🔹 Actions 用户操作
+### Actions
 
 - Identify areas that can improve revenue  
-- 识别可以提升收入的领域  
 - Identify low-performing products and regions  
-- 识别表现不佳的产品和地区
 
-### 🔹 Usage Frequency 使用频率
+### Usage Frequency
 
-- **Monthly / 每月一次**
+- Monthly
 
 ---
 
-## 📌 Key Performance Indicators (KPIs) 核心指标
+## Key Performance Indicators (KPIs)
 
-| KPI 名称 | 目标 | 计算方式 | 数据来源 | 可视化方式 |
+| KPI Name | Objective | Definition | Visual | Data Source|
 |----------|------|----------|----------|-------------|
-| Profit 盈利 | 业务的财务驱动因素 | 利润总额 | Order Details.csv | 趋势图、组成图、KPI 卡 |
-| Quantity 数量 | 衡量业务各区域的出货量 | 销售总单位数 | Order Details.csv | 多行卡片 |
-| Order Volume 订单量 | 仓库的订单发货体量 | Distinct Count of Order ID | List of Orders.csv | KPI、折线图等 |
+| Profit| Profit is the financial driver of the business | Profit | Order Details.csv | Trend, Composition, ΚΡΙ |
+| Quantity| Quantity tells you how much volume is going through each area of the business | Units | Order Details.csv | KPI |
+| Order Volume| Order volume indicates the shipment volume in the warehouse | Distinct Count of Order ID | List of Orders.csv | KPI |
 
 ---
 
-## 🛠️ Project Structure 项目结构
+## Project Structure
 
-1. **Data Story Definition 数据故事定义**
-2. **Load and Transform Data 数据加载与转换**
-   - 格式调整、数据合并、处理空行与重复项
-3. **Visualizing the Dataset 可视化设计**
-   - Z 字形布局 KPI 图表
-   - 多行卡片
-   - 利润趋势图
-   - 各品类利润图（矩阵）
-   - 客户盈利能力（散点图）
-   - 各州利润图（树状图）
+1. **Data Story Definition**
+2. **Load and Transform Data**
+   - Format Data
+   - Join Data
+   - Others: blank rows, duplicate data...
+3. **Visualizing the Dataset**
+   - choose KPIs chart: Z pattern
+   - Multi-row card
+   - Profit trend chart
+   - Profit by category chart: chart setup, format matrix chart
+e.Profitability by customer chart: chart setup, format scatter chart
+f.Profit by state chart: chart setup, format tree map
 4. **Additional Insights 深入洞察**
    - 利润洞察页面
    - 带时间轴的交互式图表
