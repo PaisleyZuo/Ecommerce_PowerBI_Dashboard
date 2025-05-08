@@ -48,48 +48,45 @@ This project is a **Power BI dashboard** based on the [Kaggle E-Commerce Dataset
 3. **Visualizing the Dataset**
    - choose KPIs chart: Z pattern
    - Multi-row card
-   - Profit trend chart
-   - Profit by category chart: chart setup, format matrix chart
-e.Profitability by customer chart: chart setup, format scatter chart
-f.Profit by state chart: chart setup, format tree map
-4. **Additional Insights 深入洞察**
-   - 利润洞察页面
-   - 带时间轴的交互式图表
-   - Key Influencers 图表
-   - Q&A 图表
-5. **Final Touches 最后美化**
-   - 添加切片器与交互筛选器
+   - Profit trend chart(Line and stacked column chart) 
+   - Profit by category chart(Matrix)
+   - Profitability by customer chart(Scatter chart)
+   - Profit by state chart(tree map)
+   - Add slicers and filters
+4. **Additional Insights**
+   - Enhance scatter chart(play axis)
+   - Key influencers chart
+   - Q&A chart
 
 ---
 
-## 🔍 Insights 洞察总结
-
-- 总体盈利能力直到 2019 年 10 月前一直为负。
-- **Electronic Games** 和 **Tables** 两个品类盈利能力为负，应重点关注。
-- 332 位客户中有 **182 位客户盈利为负**，占比约为 **55%**。
-- 不盈利客户集中于：**Madhya Pradesh**、**Maharashtra**
-- **Bookcases** 和 **Printers** 是推动收入的关键产品子类。
-
----
-
-## 💡 Recommendations 建议
-
-- 请门店经理评估最不盈利的客户。
-- 分析表现不佳的州，找出客户盈利能力差异大的原因。
-- 暂停销售 Tables 和 Electronic Games，直到成本结构得到优化。
-- 扩大盈利子类的销售，以维持持续的盈利趋势。
+## Insights Summary
+- Total profitability seems to have been negative until October 2019.
+- Electronic Games and Tables are both negative in terms of profitability and should be looked at.
+- 182 Customers have a negative profitability out of the 332 (Roughly 55%).
+- The customers with negative profitability reside in Madhya Pradesh and Maharashtra
+- Bookcases and printers seem to be pretty big influencers in the data, and are key drivers of overall Revenue (Amount).
 
 ---
 
-## 📁 Project Files 项目文件
+## Recommendations 
 
-- `Ecommerce_Dashboard.pbix`: Power BI 项目文件  
-- `Order Details.csv`, `List of Orders.csv`: 原始数据文件  
-- `Dashboard_Screenshots/`: 仪表板截图  
+- Have the Branch Manager review the most unprofitable customers.
+- Take a look at the underperforming States and identify why there is such a large variance between customers’ profitability.
+- Consider not selling Tables and Electronic games until costs can be reduced as these are taking away from the profitability of the company.
+- Focus on expanding profitable sub-categories to continue trend in profitability.
 
 ---
 
-## 📸 Dashboard Screenshots 仪表板截图
+## Project Files
+
+- `Ecommerce_Dashboard.pbix`  
+- `Order Details.csv`, `List of Orders.csv`: Original Dataset  
+- `Dashboard_Screenshots/`: Dashboard Screenshots
+
+---
+
+## Dashboard Screenshots 
 
 ![Dashboard 1](Dashboard_Screenshots/dashboard1.png)  
 ![Dashboard 2](Dashboard_Screenshots/dashboard2.png)
